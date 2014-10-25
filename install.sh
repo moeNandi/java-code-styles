@@ -1,7 +1,7 @@
 #!/bin/bash
-# Installs Square's IntelliJ configs into your user configs.
+# Installs Segment's IntelliJ configs into your user configs.
 
-echo "Installing Square code style configs..."
+echo "Installing Segment code style configs..."
 
 for i in $HOME/Library/Preferences/IntelliJIdea*/codestyles \
          $HOME/Library/Preferences/IdeaIC*/codestyles \
@@ -15,4 +15,4 @@ done
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'."
+echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Segment' or 'SegmentAndroid'."
